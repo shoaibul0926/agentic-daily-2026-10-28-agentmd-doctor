@@ -31,7 +31,7 @@ python3 agentmd_doctor.py --strict .    # warnings fail too
 python3 -m unittest discover -s tests   # tests
 ```
 
-Exit code is 1 on any error, so it drops into CI (see `.github/workflows/ci.yml`).
+Exit code is 1 on any error, so it drops into CI (e.g. a step running `python3 agentmd_doctor.py .`).
 
 ## Limits
 
